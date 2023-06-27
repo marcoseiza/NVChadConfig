@@ -12,12 +12,14 @@ M.ui = {
       { "󰈭  Find Word", "Spc f w", "Telescope live_grep" },
       { "  Bookmarks", "Spc m a", "Telescope marks" },
       { "  Mappings", "Spc c h", "NvCheatsheet" },
-      { "  Configuration", "Spc n c", "edit /Users/marcos/.config/nvim/lua/custom/chadrc.lua" }
+      { "  Configuration", "Spc N c", "edit /Users/marcos/.config/nvim/lua/custom/chadrc.lua" }
     },
 
   }
 }
 
 M.plugins = "custom.plugins"
+
+M.mappings = require "custom.mappings"
 
 return M
